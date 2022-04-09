@@ -1,8 +1,8 @@
 'use strict';
 
-const getRandom = (l) =>{ 
+const getRandom = (length) =>{ 
     let arr = []; 
-    for(i=0; i<l; i++){ 
+    for(i = 0; i < length; i++) { 
       arr.push(Math.floor(Math.random() * 101)); 
     } 
     return arr; 
